@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+outputs/models/
+.DS_Store
+*.pyc
+.env
+
+# Exclude all paper drafts, figures, tables and submission packages
+paper/
+dataset/ 
+
+# Exclude progress logs, agent logs, and rules logs
+docs/progress.md
+docs/agents.md
+docs/rules.md
+
+# Exclude idea files
+idea.md
