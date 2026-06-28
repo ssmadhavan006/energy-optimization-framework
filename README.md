@@ -11,6 +11,9 @@ EnergyOptAI is an integrated, open-source decision-support framework that bridge
 ## System Architecture
 ![System Architecture](architecture_image.png)
 
+## Methodology Flowchart
+![Methodology Flowchart](flowchart.png)
+
 ### Key Features
 1. **Heterogeneous Multi-Dataset Integration**: Combines public milling (Mendeley), turning (Kaggle), and UCI vibration (Bosch) databases into a unified search space with strict bound enforcement.
 2. **Specific Energy Consumption (SEC) Target Engineering**: Isolates active cutting energy from spindle idle power using G-code block classification.
