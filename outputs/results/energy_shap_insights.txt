@@ -1,0 +1,5 @@
+time_s (rank 1): Higher values of time_s have a positive impact on energy SHAP values (correlation: 0.6973), indicating that increasing time_s generally increases predicted energy.
+delta_Y (rank 2): Higher values of delta_Y have a negative impact on energy SHAP values (correlation: -0.2234), indicating that increasing delta_Y generally reduces predicted energy.
+delta_xy (rank 3): Higher values of delta_xy have a negative impact on energy SHAP values (correlation: -0.2919), indicating that increasing delta_xy generally reduces predicted energy.
+delta_X (rank 4): Higher values of delta_X have a negative impact on energy SHAP values (correlation: -0.4349), indicating that increasing delta_X generally reduces predicted energy.
+delta_Z (rank 5): Higher values of delta_Z have a negative impact on energy SHAP values (correlation: -0.5665), indicating that increasing delta_Z generally reduces predicted energy.

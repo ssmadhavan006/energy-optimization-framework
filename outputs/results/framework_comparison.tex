@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Methodological Comparison of EnergyOptAI with Prior Frameworks}
+\label{tab:framework_comparison}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Study} & \textbf{ML Method} & \textbf{XAI} & \textbf{MOO} & \textbf{MCDM} & \textbf{Multi-Dataset} & \textbf{Open Source} \\
+\midrule
+Yang et al., 2023 & Physics-based & \texttimes & NSGA-II & TOPSIS & \texttimes & \texttimes \\
+Zhang et al., 2023 & LSTM Networks & \texttimes & \texttimes & \texttimes & \texttimes & \texttimes \\
+Brillinger et al., 2021 & Random Forest/GBM & \texttimes & \texttimes & \texttimes & \texttimes & \texttimes \\
+Jia et al., 2021 & SVM / MLP & \texttimes & NSGA-II & Grey Relational & \texttimes & \texttimes \\
+\textbf{EnergyOptAI} & \textbf{RF/XGB/CatBoost} & \textbf{SHAP} & \textbf{NSGA-II} & \textbf{TOPSIS} & \textbf{\checkmark} & \textbf{\checkmark} \\
+\bottomrule
+\end{tabular}
+\end{table}

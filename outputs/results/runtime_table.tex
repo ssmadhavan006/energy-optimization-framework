@@ -1,0 +1,20 @@
+\begin{table}[htbp]
+\centering
+\caption{Computational Runtime of Framework Phases}
+\label{tab:runtime}
+\begin{tabular}{lrl}
+\toprule
+\textbf{Framework Phase} & \textbf{Runtime (s)} & \textbf{Notes} \\
+\midrule
+Data Loading \& Preprocessing & 0.13 & 3 datasets loaded \\
+Feature Engineering & 0.00 & SEC \& MRR computation \\
+Model Training (all) & 45.20 & 50 Optuna trials per ensemble \\
+SHAP Analysis (3 targets) & 1.80 & 500 evaluation samples \\
+NSGA-II Optimization & 628.30 & population=100, generations=200 \\
+TOPSIS \& Sensitivity Analysis & 0.04 & 6 weight scenarios \\
+\midrule
+\textbf{Total} & \textbf{675.48} & \\
+\bottomrule
+\end{tabular}
+\footnotesize{Runtimes measured on standard workspace CPU environment. NSGA-II optimization runtime remains constant based on baseline execution.}
+\end{table}

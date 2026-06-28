@@ -1,0 +1,5 @@
+TCond (rank 1): Higher values of TCond have a positive impact on time SHAP values (correlation: 0.9582), indicating that increasing TCond generally increases predicted time.
+Final_diameter (rank 2): Higher values of Final_diameter have a positive impact on time SHAP values (correlation: 0.7511), indicating that increasing Final_diameter generally increases predicted time.
+ap (rank 3): Higher values of ap have a negative impact on time SHAP values (correlation: -0.9843), indicating that increasing ap generally reduces predicted time.
+Init_diameter (rank 4): Higher values of Init_diameter have a positive impact on time SHAP values (correlation: 0.5607), indicating that increasing Init_diameter generally increases predicted time.
+Tool_ID (rank 5): Higher values of Tool_ID have a negative impact on time SHAP values (correlation: -0.5864), indicating that increasing Tool_ID generally reduces predicted time.

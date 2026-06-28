@@ -1,0 +1,11 @@
+model_a,model_b,statistic,p_value,significant,interpretation,target,mean_a,mean_b,better_model,direction
+linear_regression,svr,0.0,0.0625,False,No significant difference (p=0.0625),roughness,0.17672396872423887,0.093681907669698,svr,svr is better
+linear_regression,xgboost,0.0,0.0625,False,No significant difference (p=0.0625),roughness,0.17672396872423887,0.05461089790289235,xgboost,xgboost is better
+linear_regression,catboost,0.0,0.0625,False,No significant difference (p=0.0625),roughness,0.17672396872423887,0.053119210205365364,catboost,catboost is better
+linear_regression,random_forest,0.0,0.0625,False,No significant difference (p=0.0625),roughness,0.17672396872423887,0.05517334106514549,random_forest,random_forest is better
+svr,xgboost,0.0,0.0625,False,No significant difference (p=0.0625),roughness,0.093681907669698,0.05461089790289235,xgboost,xgboost is better
+svr,catboost,0.0,0.0625,False,No significant difference (p=0.0625),roughness,0.093681907669698,0.053119210205365364,catboost,catboost is better
+svr,random_forest,0.0,0.0625,False,No significant difference (p=0.0625),roughness,0.093681907669698,0.05517334106514549,random_forest,random_forest is better
+catboost,random_forest,4.0,0.4375,False,No significant difference (p=0.4375),roughness,0.053119210205365364,0.05517334106514549,catboost,catboost is better
+xgboost,catboost,6.0,0.8125,False,No significant difference (p=0.8125),roughness,0.05461089790289235,0.053119210205365364,catboost,catboost is better
+xgboost,random_forest,6.0,0.8125,False,No significant difference (p=0.8125),roughness,0.05461089790289235,0.05517334106514549,xgboost,xgboost is better

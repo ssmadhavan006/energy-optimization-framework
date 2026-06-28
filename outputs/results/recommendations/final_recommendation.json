@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-06-27T16:43:50.529305Z",
+    "topsis_weights": {
+        "energy": 0.5,
+        "roughness": 0.2,
+        "time": 0.3
+    },
+    "recommended_parameters": {
+        "feed_rate": 0.1036995665718811,
+        "depth_of_cut": 0.3356743414293698,
+        "spindle_speed": 10201.169772491436,
+        "tool_condition": 0.0379701677420229
+    },
+    "predicted_performance": {
+        "energy_sec_j_mm3": 7.944925328736692,
+        "roughness_ra_um": 0.4527713022059025,
+        "time_s": 6.696939782890794
+    },
+    "vs_baseline": {
+        "energy_improvement_pct": 7.825434073512514e-14,
+        "roughness_improvement_pct": -4.2388116728869045,
+        "time_improvement_pct": 44.1756755487398
+    },
+    "topsis_rank": 1,
+    "closeness_coefficient": 0.8869800540628549,
+    "pareto_front_size": 42,
+    "sensitivity_stability_score": 0.5
+}

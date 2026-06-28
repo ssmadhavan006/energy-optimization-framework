@@ -1,0 +1,40 @@
+{
+    "hypervolume": 0.036645977532080425,
+    "n_solutions": 100,
+    "pop_size": 100,
+    "n_gen": 200,
+    "runtime_seconds": 8.363869667053223,
+    "objective_ranges": {
+        "energy_sec": [
+            7.944925328736693,
+            7.944925328736693
+        ],
+        "roughness_ra": [
+            0.4468436755648677,
+            0.4468436755648677
+        ],
+        "time_s": [
+            10.322404550139016,
+            10.322404550139016
+        ]
+    },
+    "baseline_comparison": {
+        "baseline": {
+            "decision_vector": [
+                0.1,
+                0.25,
+                9999.999998333336,
+                0.053
+            ],
+            "energy_sec": 7.944925328736696,
+            "roughness_ra": 0.4794995254147178,
+            "time_s": 10.322404550139016,
+            "description": "Median baseline (dataset average)"
+        },
+        "max_reductions": {
+            "energy_sec_pct": 3.3537574600767924e-14,
+            "roughness_ra_pct": 6.810402955374386,
+            "time_s_pct": 0.0
+        }
+    }
+}

@@ -1,0 +1,6 @@
+Framework Variant,Energy R²,Ra R²,Time R²,Ra (μm),Time (s)
+Raw energy (no SEC),-13.26,—,—,—,—
+With SEC engineering,0.50,—,—,—,—
+"Full ML, no NSGA-II",0.50,0.806,0.995,0.4468,10.322
+"NSGA-II, random select",—,—,—,0.4847 ± 0.0000,10.32 ± 0.00
+Full EnergyOptAI,0.50,0.806,0.995,0.4528,6.697

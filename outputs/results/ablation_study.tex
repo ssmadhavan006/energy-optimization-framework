@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Ablation Study of Framework Components}
+\label{tab:ablation_study}
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Framework Variant} & \textbf{Energy R²} & \textbf{Ra R²} & \textbf{Time R²} & \textbf{Ra (\textmu m)} & \textbf{Time (s)} \\
+\midrule
+Raw energy (no SEC) & -13.26 & — & — & — & — \\
+With SEC engineering & 0.50 & — & — & — & — \\
+Full ML, no NSGA-II & 0.50 & 0.806 & 0.995 & 0.4468 & 10.322 \\
+NSGA-II, random select & — & — & — & 0.4847 ± 0.0000 & 10.32 ± 0.00 \\
+Full EnergyOptAI & 0.50 & 0.806 & 0.995 & 0.4528 & 6.697 \\
+\bottomrule
+\end{tabular}
+\footnotesize{Ra R² and Time R² correspond to CatBoost champion models. Energy R² corresponds to Random Forest champion. TCond fixed at 0.053 mm where optimized.}
+\end{table}

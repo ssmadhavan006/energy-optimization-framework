@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{SHAP Feature Importance Rankings Across Multi-Objective Prediction Targets}
+\label{tab:shap_importance}
+\begin{tabular}{lcccccc}
+\hline
+Feature & \multicolumn{2}{c}{Energy (SEC)} & \multicolumn{2}{c}{Surface Roughness} & \multicolumn{2}{c}{Machining Time} \\
+ & Rank & Mean $|$SHAP$|$ & Rank & Mean $|$SHAP$|$ & Rank & Mean $|$SHAP$|$ \\
+\hline
+TCond & - & 0.0000 & 5 & 0.0238 & \textbf{1} & \textbf{11.1362} \\
+Tool\_ID & - & 0.0000 & 2 & 0.0852 & 5 & 0.5783 \\
+Init\_diameter & - & 0.0000 & 4 & 0.0250 & 4 & 1.1467 \\
+Position & - & 0.0000 & 3 & 0.0409 & 6 & 0.0601 \\
+ap & - & 0.0000 & 7 & 0.0198 & 3 & 1.1514 \\
+Final\_diameter & - & 0.0000 & 9 & 0.0130 & 2 & 1.4021 \\
+f & - & 0.0000 & \textbf{1} & \textbf{0.0990} & 10 & 0.0000 \\
+R\_measurement & - & 0.0000 & 12 & 0.0068 & 7 & 0.0456 \\
+Machined\_length & - & 0.0000 & 14 & 0.0049 & 8 & 0.0000 \\
+vc & - & 0.0000 & 15 & 0.0000 & 9 & 0.0000 \\
+\hline
+\end{tabular}
+\end{table}

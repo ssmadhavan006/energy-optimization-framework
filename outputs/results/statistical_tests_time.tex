@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Pairwise Wilcoxon Signed-Rank Test Results on 5-Fold CV RMSE (Time)}
+\label{tab:wilcoxon_time}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Model A} & \textbf{Model B} & \textbf{Mean A} & \textbf{Mean B} & \textbf{Statistic} & \textbf{p-value} \\
+\midrule
+Linear Regression & Svr & 3.4571 & 12.5326 & 0.0 & 0.0625 \\
+Linear Regression & Xgboost & 3.4571 & 0.3585 & 0.0 & 0.0625 \\
+Linear Regression & Catboost & 3.4571 & 0.9155 & 0.0 & 0.0625 \\
+Linear Regression & Random Forest & 3.4571 & 1.4209 & 0.0 & 0.0625 \\
+Svr & Xgboost & 12.5326 & 0.3585 & 0.0 & 0.0625 \\
+Svr & Catboost & 12.5326 & 0.9155 & 0.0 & 0.0625 \\
+Svr & Random Forest & 12.5326 & 1.4209 & 0.0 & 0.0625 \\
+Xgboost & Catboost & 0.3585 & 0.9155 & 0.0 & 0.0625 \\
+Xgboost & Random Forest & 0.3585 & 1.4209 & 0.0 & 0.0625 \\
+Catboost & Random Forest & 0.9155 & 1.4209 & 0.0 & 0.0625 \\
+\bottomrule
+\end{tabular}
+\footnotesize{* p < 0.05 indicates statistical significance. Cost criteria (RMSE) analyzed fold-by-fold.}
+\end{table}

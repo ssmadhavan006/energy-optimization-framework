@@ -1,0 +1,29 @@
+═══ KEY NUMBERS FOR RESEARCH PAPER ═══
+
+ML SURROGATE SURFACES:
+  Best energy model:      Random Forest, R2=0.5002, RMSE=13.1220 J/mm3
+  Best roughness model:   CatBoost,      R2=0.8061, RMSE=0.1237 um
+  Best time model:        CatBoost,      R2=0.9947, RMSE=1.1359 s
+
+SHAP FEATURE EXPLANATION HIGHLIGHTS:
+  Roughness: Top feature = f (corr: 0.9158), TCond (corr: -0.5779) (confirms Ra is proportional to f^2/r)
+  Time:      Top feature = TCond (corr: 0.9582), ap (corr: -0.9843)
+  Energy:    Top feature = time_s (corr: 0.6973), delta_xy (corr: -0.2919)
+
+NSGA-II MULTI-OBJECTIVE OPTIMIZATION:
+  Pareto front size:      42 solutions
+  Hypervolume indicator:  7.662354
+  Optimization runtime:   628.32 seconds
+
+TOPSIS DECISION RANKING (Best Compromise):
+  Recommended Feed Rate (f):       0.1037 mm/rev
+  Recommended Depth of Cut (ap):    0.3357 mm
+  Recommended Spindle Speed (S):   10201 rpm
+  Recommended Tool Wear (TCond):   0.0380 mm
+
+PREDICTED PERFORMANCE IMPROVEMENT VS BASELINE:
+  Energy SEC improvement:  +0.0% vs baseline
+  Roughness improvement:   -4.2%
+  Time improvement:        +44.2%
+  TOPSIS Closeness (Ci):   0.8870
+  Weight Stability Score:  0.50 (appearance count in Rank-1)

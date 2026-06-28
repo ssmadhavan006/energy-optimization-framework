@@ -1,0 +1,5 @@
+f (rank 1): Higher values of f have a positive impact on roughness SHAP values (correlation: 0.9158), indicating that increasing f generally increases predicted roughness.
+Tool_ID (rank 2): Higher values of Tool_ID have a positive impact on roughness SHAP values (correlation: 0.7955), indicating that increasing Tool_ID generally increases predicted roughness.
+Position (rank 3): Higher values of Position have a negative impact on roughness SHAP values (correlation: -0.8101), indicating that increasing Position generally reduces predicted roughness.
+Init_diameter (rank 4): Higher values of Init_diameter have a negative impact on roughness SHAP values (correlation: -0.0679), indicating that increasing Init_diameter generally reduces predicted roughness.
+TCond (rank 5): Higher values of TCond have a negative impact on roughness SHAP values (correlation: -0.5779), indicating that increasing TCond generally reduces predicted roughness.

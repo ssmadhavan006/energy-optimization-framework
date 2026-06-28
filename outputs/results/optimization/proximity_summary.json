@@ -1,0 +1,12 @@
+{
+    "n_total": 100,
+    "n_ood_energy": 94,
+    "n_ood_roughness": 100,
+    "n_ood_any": 100,
+    "pct_within_distribution": 0.0,
+    "mean_nn_dist_energy": 0.24848866141283213,
+    "mean_nn_dist_roughness": 0.6372895535820282,
+    "max_nn_dist_energy": 0.3085076406648602,
+    "max_nn_dist_roughness": 0.650096633901671,
+    "threshold_used": 0.2
+}

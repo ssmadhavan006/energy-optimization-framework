@@ -1,0 +1,5 @@
+f0 (rank 1): Higher values of f0 have a positive impact on test SHAP values (correlation: 0.9888), indicating that increasing f0 generally increases predicted test.
+f1 (rank 2): Higher values of f1 have a positive impact on test SHAP values (correlation: 0.9491), indicating that increasing f1 generally increases predicted test.
+f2 (rank 3): Higher values of f2 have a negative impact on test SHAP values (correlation: -0.5110), indicating that increasing f2 generally reduces predicted test.
+f4 (rank 4): Higher values of f4 have a negative impact on test SHAP values (correlation: -0.5277), indicating that increasing f4 generally reduces predicted test.
+f3 (rank 5): Higher values of f3 have a positive impact on test SHAP values (correlation: 0.1063), indicating that increasing f3 generally increases predicted test.
