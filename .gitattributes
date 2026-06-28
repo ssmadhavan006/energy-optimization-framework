@@ -1,0 +1,2 @@
+# Exclude auto-generated SHAP interactive plots from language statistics
+outputs/figures/shap/*.html linguist-generated=true
